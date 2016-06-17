@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+    <title>爵大海豚</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="bookmark" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <meta content="width=device-width, minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=1;" id="viewport" name="viewport"/>
+    <!--离线应用的另一个技巧-->
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <!--指定的iphone中safari顶端的状态条的样式-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="telephone=no" name="format-detection"/>
+    <link type="text/css" rel="stylesheet" href="css/com.css"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <script src="js/jquery-1.6.4.min.js"></script>
+    <script src="js/com.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery.touchslider.min.js"></script>
+    <!--<script src="template/js/home/index.js"></script>-->
+    <script>
+        jQuery(function ($) {
+            $(window).resize(function () {
+                var width = $('#js-com-header-area').width();
+                $('.touchslider-item a').css('width', width);
+                $('.touchslider-viewport').css('height', 300 * (width / 640));
+            }).resize();
+            $(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
+        });
+    </script>
+</head>
+<body>
+<div class="com-content">
+    <div class="com-header-area" id="js-com-header-area">
+        <a href="index.htm" class="com-header-logo"></a>
+        <p>
+            <a class="com-header-search" id="js-com-header-search">
+                <del></del>
+            </a>
+        </p>
+        <div class="clear"></div>
+    </div>
+    <div class="com-content-area" id="js-com-content-area">
+        <!--content-->
+        <div class="page-role home-page">
+            <div class="touchslider">
+                <div class="touchslider-viewport">
+                    <div class="touchslider-item"><a href="#"><img
+                            src="img/banner1.jpg"
+                            style="vertical-align:top;"/></a></div>
+                    <div class="touchslider-item"><a href="#"><img
+                            src="img/banner2.jpg"
+                            style="vertical-align:top;"/></a></div>
+                    <div class="touchslider-item"><a href="#"><img
+                            src="img/banner3.jpg"
+                            style="vertical-align:top;"/></a></div>
+                    <div class="touchslider-item"><a href="#"><img
+                            src="img/banner4.jpg"
+                            style="vertical-align:top;"/></a></div>
+                    <div class="touchslider-item"><a href="#"><img
+                            src="http://img-cdn2.paixie.net/newspic/20140404/139657373135668e.jpg"
+                            style="vertical-align:top;"/></a></div>
+                    <div class="touchslider-item"><a href="#"><img
+                            src="http://img-cdn2.paixie.net/newspic/20140331/13962355233033ac.jpg"
+                            style="vertical-align:top;"/></a></div>
+                </div>
+                <div class="touchslider-navtag">
+                    <span class="touchslider-nav-item touchslider-nav-item-current"></span>
+                    <span class="touchslider-nav-item "></span>
+                    <span class="touchslider-nav-item "></span>
+                    <span class="touchslider-nav-item "></span>
+                    <span class="touchslider-nav-item "></span>
+                    <span class="touchslider-nav-item "></span>
+                </div>
+            </div>
+            <div class="banner">
+                <a class="banner-item" href="#sight">
+                    <img src="img/banner_02.png">
+                    <span>视觉购</span>
+                </a>
+                <a class="banner-item" href="#finance">
+                    <img src="img/banner_01.png">
+                    <span>投资理财</span>
+                </a>
+                <a class="banner-item" href="#personal">
+                    <img src="img/banner_03.png">
+                    <span>私人订制</span>
+                </a>
+            </div>
+            <div class="native">
+                <a class="native-item" href="#">
+                    <img src="img/fire.png">
+                    <span>热点</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/star.png">
+                    <span>娱乐</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/movie.png">
+                    <span>电影</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/game.png">
+                    <span>游戏</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/tv.png">
+                    <span>电视剧</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/tv.png">
+                    <span>热播剧</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/voice.png">
+                    <span>综艺</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/new.png">
+                    <span>今日头条</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/music.png">
+                    <span>酷狗</span>
+                </a>
+                <a class="native-item" href="#">
+                    <img src="img/fenghuang.png">
+                    <span>凤凰视频</span>
+                </a>
+            </div>
+            <div id="sight" class="sight">
+                <div class="title">
+                    <li><strong>视觉购</strong></li>
+                </div>
+                <div class="content">
+                    <img src="img/img_001.png" class="img_class">
+                    <span>
+                        <img src="img/img_002.png">
+                        <img src="img/image_003.png">
+                    </span>
+                </div>
+                <div class="sight_foot">
+                    <img src="img/img_004.png">
+                    <img src="img/img_005.png">
+                </div>
+            </div>
+            <div id="change" class="change">
+                <div class="title">
+                    <li class="title1"><img src="img/click.png"><strong>随心换</strong></li>
+                    <a class="title2" href="#"><strong>更多</strong><img src="img/arrow_right.png"></a>
+                </div>
+                <div class="content">
+                    <img src="img/page01.png">
+                </div>
+            </div>
+            <div id="finance" class="finance">
+                <div class="title">
+                    <li><strong>投资理财</strong></li>
+                </div>
+                <div class="content">
+                    <img src="img/finance01.png">
+                    <img src="img/finance02.png">
+                    <img src="img/finance03.png">
+                    <img src="img/finance04.png">
+                </div>
+            </div>
+            <div class="zhongchou">
+                <div>发起我的轻众筹</div>
+                <div>人人都能说筹就筹</div>
+            </div>
+            <div class="choukeInfo">
+                <div class="title">
+                    筹客资讯
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <div class="item-title">
+                            每个男人都应该有一套靠谱的螺丝刀-好玩晚报第35期
+                        </div>
+                        <div class="item-subtitle">
+                            <i>神奇小阿索</i>
+                            <i>大V推荐</i>
+                        </div>
+                    </div>
+                    <img src="img/page002.png">
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <a href="#" class="item-title">
+                            像寻找初恋一样，去寻找素颜的水果
+                        </a>
+                        <a href="#" class="item-subtitle">
+                            <i>京东众筹社区</i>
+                            <i>众筹故事</i>
+                        </a>
+                    </div>
+                    <img src="img/page003.png">
+                </div>
+            </div>
+            <div id="local" class="local">
+                <div class="title">
+                    <li><strong>本地生活</strong></li>
+                </div>
+                <div class="content">
+                    <img src="img/local.png">
+                </div>
+            </div>
+            <nav class="native">
+                <a href="#" ><img src="img/banner_first.png"></a>
+                <a href="#" ><img src="img/banner_fire.png"></a>
+                <a href="#" ><img src="img/banner_publish.png"></a>
+                <a href="#" ><img src="img/banner_friend.png"></a>
+                <a href="#" ><img src="img/banner_mine.png"></a>
+            </nav>
+        <!--content-end-->
+        </div>
+    </div>
+</div>
+</body>
+</html>

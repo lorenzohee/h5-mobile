@@ -1,0 +1,68 @@
+.fleft{float:left}
+.fright{float:right}
+
+.banner{margin:15px -12px 0;padding-bottom: 10px; border-bottom: 3px solid #ccc}
+.banner .banner-item {width: 32%;display: inline-block; text-align: center}
+.banner .banner-item img{display: block;width: 100px;margin: 0 auto}
+
+.native{margin:15px -12px 0;padding-bottom: 10px;}
+.native .native-item {width: 19%;display: inline-block; text-align: center}
+.native .native-item img{display: block;width: 40px;margin: 0 auto}
+
+.sight .title, .change .title{margin: 0 -12px;padding: 15px 0;background: #fff;}
+.sight .title li{border-left: 2px solid darkorange;padding-left: 10px;font-size: 1.4em}
+
+.sight .content{margin:10px -12px;}
+.sight .content .img_class{width: 49%; height: 247px}
+.sight .content span{display: inline-block;width: 50%}
+.sight .content span img{width: 100%;margin:-8px 0 1px -2px}
+
+.sight .sight_foot img{width: 50%;margin: 0 -2px}
+
+.change .title{font-size: 1.5em;border-top: 1px solid #ff3842;
+    border-left: 5px solid #ff3842;
+    border-bottom: 1px solid #cccccc}
+.change .title .title1{display:inline-block;margin-left: 20px;}
+.change .title .title1 img{height: 35px; margin-bottom:-10px;margin-right: 10px}
+.change .title .title2{display:inline-block;float: right;margin-right: 20px;}
+.change .title .title2 img{margin-bottom: -3px;height: 20px; margin-left: 10px;}
+.change .content img{margin: 0 -12px;width: 105%}
+
+.finance .title, .change .title{margin: 0 -12px;padding: 15px 0;background: #fff;}
+.finance .title li{border-left: 2px solid darkorange;padding-left: 10px;font-size: 1.4em}
+.finance .content{margin-top: 10px;}
+.finance .content img{width: 100%;}
+
+.zhongchou{
+    margin: 10px -12px;
+    text-align: center;
+    color: #14c0c1;
+    background: #FFFFFF;
+    padding: 30px;
+}
+.zhongchou div:nth-child(1){font-size: 2.3em;line-height: 2em;}
+.zhongchou div:nth-child(2){font-size: 1.3em}
+
+.choukeInfo {margin: 0 -12px;background: #FFFFFF}
+.choukeInfo .title{padding: 30px;font-size: 1.5em;}
+
+.choukeInfo .item {margin: 0 0 0 30px;border-top: 1px solid #ddd;}
+.choukeInfo .item .item-content{display: inline-block;width: 70%;vertical-align: top}
+.choukeInfo .item img{width: 20%;margin-top: 20px;margin-bottom:20px;}
+
+.choukeInfo .item .item-content .item-title{display: block;font-size: 1.2em;font-weight: bold;padding:10px 0}
+.choukeInfo .item .item-content .item-subtitle{color: #cccccc}
+.choukeInfo .item .item-content .item-subtitle i:nth-child(2){
+    color: #2298cc;border-left:2px solid #2298cc;
+    margin-left: 10px;padding-left: 10px;}
+
+.local{margin: 20px 0}
+.local .title{font-size: 1.5em;}
+
+.local .content{margin: 10px -12px 0;}
+.local .content img{width: 100%}
+
+nav.native {margin: 10px -12px 0;padding: 5px 0;background: #fff}
+nav.native a{display:inline-block;width: 18%; text-align: center}
+
+nav.native a img{max-width:40px;}
