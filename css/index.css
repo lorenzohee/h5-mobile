@@ -87,7 +87,7 @@
 .touchslider .touchslider-viewport .touchslider-item a{z-index:1;width:100%;display:block;}
 .touchslider .touchslider-viewport .touchslider-item img{ width:100%;}
 .touchslider .touchslider-navtag{
-    position: absolute;z-index:9999;text-align:center;height:34px;display:inline-block;vertical-align:middle;margin-top:-40px;width:100%}
+    position: absolute;z-index:99;text-align:center;height:34px;display:inline-block;vertical-align:middle;margin-top:-40px;width:100%}
 .touchslider .touchslider-navtag span{width:7px;height:7px;border-radius:50%;
     cursor: pointer;background:#c1c1c1;overflow:hidden;display:inline-block; }
 .touchslider .touchslider-navtag .touchslider-nav-item-current{background:#FFFFFF;}
