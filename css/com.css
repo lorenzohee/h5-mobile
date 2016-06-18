@@ -1,4 +1,7 @@
-*{-webkit-appearance: none;}
+*{
+    -webkit-appearance: none;
+    margin: 0px;
+}
 a:visited,
 a{text-decoration:none;cursor:pointer;color:#575757;}
 a.a,.a{color:#2876D6;}
@@ -10,7 +13,16 @@ input[type=button]:active,
 input[type=submit]:active,
 input[type=reset]:active{-moz-transform:rotate(0deg) scale(1.00,1.00) translate(0px,1px) skew(0deg,0deg);-moz-transform-origin:0% 0%;-webkit-transform:rotate(0deg) scale(1.00,1.00) translate(0px,1px) skew(0deg,0deg);-webkit-transform-origin:0% 0%;-o-transform:rotate(0deg) scale(1.00,1.00) translate(0px,1px) skew(0deg,0deg);-o-transform-origin:0% 0%;transform:rotate(0deg) scale(1.00,1.00) translate(0px,1px) skew(0deg,0deg);transform-origin:0% 0%;}
 textarea{resize:none;overflow:auto;}
-.com-content{background:#e1e5ee;margin:auto;overflow:hidden;position:relative;box-shadow: 0 0 10px #000;min-width:320px;max-width:540px;}
+.com-content{
+    background:#e1e5ee;
+    margin:auto;
+    overflow:hidden;
+    position:relative;
+    box-shadow: 0 0 10px #000;
+    min-width:320px;
+    max-width:540px;
+    background-color: #e1e5ee;
+}
 .com-content-area{margin:12px;}
 input[type=text],
 input[type=number],
@@ -211,14 +223,14 @@ input.pxui-blue-button:disabled:active{background:#56678e;border-color:#56678e;}
 /*商品图片*/
 /*公共头部*/
 .com-header-area input[type=submit]{background-position:-40px -45px;}
-.com-header-search del{width:110px;height:35px;float:left;margin:20px 0 8px 0;
+.com-header-search del{width:120px;height:35px;float:left;margin:20px 20px 8px 8px;
     background: url("../img/banner.png");
-    background-size: 110px 35px;}
+    background-size: 116px 35px;}
 
 .com-header-area{border-top:1px solid #757c8d;background:#fff;color:#000;}
-.com-header-logo{width:200px;height:56px;float:left;margin:8px 0 8px 8px;
+.com-header-logo{width:200px;height:50px;float:left;margin:8px 0 3px 8px;
     background: url("../img/logo.png");
-    background-size: 200px 56px;}
+    background-size: 200px 50px;}
 .com-header-area p{float:right;display:inline;height:51px;}
 .com-header-area p a{float:left;position:relative;line-height:14px;color:#fff;}
 .com-header-area p a.selected{background:#202f44;}

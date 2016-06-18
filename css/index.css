@@ -79,8 +79,8 @@
 .touchslider,.touchslider div,.touchslider a,.touchslider img{
     font-style: normal;
     vertical-align: top;
-	padding:0px; margin:0px;
-	border:0px;
+    padding:0px; margin:0px;
+    border:0px;
 }
 .touchslider{position:relative;margin:0 -12px;}
 .touchslider .touchslider-viewport{ overflow:hidden; height:150px;}
