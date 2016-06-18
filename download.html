@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <title>爵士海豚</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="bookmark" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <meta content="width=device-width, minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=1;" id="viewport" name="viewport"/>
+    <!--离线应用的另一个技巧-->
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <!--指定的iphone中safari顶端的状态条的样式-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="telephone=no" name="format-detection"/>
+    <link type="text/css" rel="stylesheet" href="css/com.css"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <script src="js/jquery-1.6.4.min.js"></script>
+    <script src="js/com.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery.touchslider.min.js"></script>
+    <!--<script src="template/js/home/index.js"></script>-->
+    <script>
+        jQuery(function ($) {
+            $(window).resize(function () {
+                var width = $('#js-com-header-area').width();
+                $('.touchslider-item a').css('width', width);
+                $('.touchslider-viewport').css('height', 300 * (width / 640));
+            }).resize();
+            $(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
+        });
+    </script>
+    <style>
+        .content{
+            background: url("bg.jpg") no-repeat;
+            width: 100%;
+            height: auto;
+            background-size:100%;
+            min-width: 320px;
+            max-width: 540px;
+            margin:0 auto;
+        }
+        .content a {
+            display: inline-block;
+            postion: absolute;
+            width: 50%;
+            margin-left:24%;
+            background: blue;
+            border-shadow: 10px 10px 10px;
+            border-radius: 4px;
+            text-align: center;
+            background-image: linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%);
+            background-repeat: repeat-x;
+            border-color: #e38d13;
+            color: #fff;
+            background-color:#f0ad4e;
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: 400;
+            white-space: normal;
+            vertical-align: middle;
+            border: 1px solid transparent;
+
+        }
+        .content a:nth-child(1){
+            margin-top: 40%;
+        }
+        .content a:nth-child(2){
+            margin-top:20%;
+            margin-bottom: 25%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <a>点击下载</a>
+        <a>已安装，直接打开</a>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    if(!navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+        document.body.innerHTML = '请在移动端浏览';
+    }
+</script>
