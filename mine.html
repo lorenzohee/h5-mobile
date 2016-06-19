@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+    <title>爵士海豚</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="bookmark" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <meta content="width=device-width, minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=1;" id="viewport" name="viewport"/>
+    <!--离线应用的另一个技巧-->
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <!--指定的iphone中safari顶端的状态条的样式-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="telephone=no" name="format-detection"/>
+    <style>
+        .content{
+            width: 100%;
+            height: auto;
+            min-width: 320px;
+            max-width: 540px;
+            margin:0 auto;
+            background-color: #f1efef;
+        }
+        .header{
+            background: #F56400;
+            padding: 20px 10px;
+            color: #fff;
+        }
+        .header span {
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .right {
+            float: right;
+        }
+        .header img{
+            width: 40px;
+            margin-left:20px;
+            margin-top: -10px;
+        }
+        table {
+            width: 100%;
+            text-align: center;
+            background-color: #fff;
+            border-bottom: 1px solid #ccc;
+        }
+        table.order-money tr td{
+            padding: 15px 10px;
+            font-weight: bold;
+            border-left: 1px solid #cccccc;
+        }
+        table.order-money tr td:first-child {
+            border-left: none;
+        }
+        table.order-money tr td div{line-height: 1.8em;}
+        .order-title {
+            margin: 10px 0 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            background-color: #fff;
+        }
+        .order-title span:first-child{font-weight:bold}
+        .order-title .right{font-size: .9em;}
+
+        table.order-list{border-bottom: none;}
+        table.order-list img{width: 100%;}
+
+        ul{list-style: none; background: #fff;padding:0;}
+        ul hr{
+            margin-left: 5%;
+            border-color: #fff;
+        }
+        li {
+            font-family: "Microsoft YaHei";
+            font-size: .9em;
+            font-weight: bold;
+            margin:10px 0;
+            padding:15px 30px 15px 5px;
+            background: #fff;
+        }
+        ul li{
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        ul li:last-child{
+            padding-bottom: 15px;
+        }
+        a {
+            text-decoration: none;
+            color: #5a5a5a;
+        }
+        .my-list li a{
+            display: inline-block;
+            width: 100%;
+        }
+        li img{
+            width: 25px;
+            vertical-align: top;
+            margin-right: 5px;
+        }
+        .order-title img{
+            width: 25px;
+            vertical-align: top;
+            margin-top: -5px;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="header">
+        <span>我的</span>
+        <img class="right" src="myprofile/message.png">
+        <span class="right">
+            设置
+        </span>
+    </div>
+    <table class="order-money">
+        <tr>
+            <td>
+                <div>钱包</div>
+                <div>￥8.00</div>
+            </td>
+            <td>
+                <div>钱包互转</div>
+                <div>￥1636.75</div>
+            </td>
+            <td>
+                <div>分享收益</div>
+                <div>￥8.00</div>
+            </td>
+        </tr>
+    </table>
+    <div class="order-title">
+        <img src="myprofile/pp1.png">
+        <span>我的订单</span>
+        <a href="#" class="right">查看全部订单 ></a>
+    </div>
+    <table class="order-list">
+        <tr>
+            <td>
+                <img src="myprofile/order1.jpg">
+            </td>
+            <td>
+                <img src="myprofile/order2.jpg">
+            </td>
+            <td>
+                <img src="myprofile/order3.jpg">
+            </td>
+            <td>
+                <img src="myprofile/order4.jpg">
+            </td>
+        </tr>
+    </table>
+    <ul class="my-list">
+        <li>
+            <a href="#">
+                <img src="myprofile/ban1.png">
+                <span>我的收藏</span>
+                <span class="right">></span>
+            </a>
+        </li>
+        <hr />
+        <li>
+            <a href="#">
+                <img src="myprofile/ban2.png">
+                <span>我的投资</span>
+                <span class="right">></span>
+            </a>
+        </li>
+        <hr />
+        <li>
+            <a href="#">
+                <img src="myprofile/ban3.png">
+                <span>我的点餐</span>
+                <span class="right">></span>
+            </a>
+        </li>
+        <hr />
+        <li>
+            <a href="#">
+                <img src="myprofile/ban4.png">
+                <span>我的活动</span>
+                <span class="right">></span>
+            </a>
+        </li>
+    </ul>
+
+    <li style="list-style: none">
+        <a href="#">
+            <img src="myprofile/ban5.png">
+            <span>我的社区</span>
+            <span class="right">></span>
+        </a>
+    </li>
+    <li style="list-style: none">
+        <a href="#">
+            <img src="myprofile/ban6.png">
+            <span>邀请好友</span>
+            <span class="right">邀请好友送30元 ></span>
+        </a>
+    </li>
+    <br/>
+    <br>
+</div>
+</body>
+</html>
+<script>
+    if(!navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+        document.body.innerHTML = '请在移动端浏览';
+    }
+</script>
